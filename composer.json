@@ -1,0 +1,17 @@
+{
+    "name": "minhngoc/tor-proxy",
+    "autoload": {
+        "psr-4": {
+            "Kynguyenso\\TorProxy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "minhngoc2512",
+            "email": "minhngoc2512@yahoo.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
