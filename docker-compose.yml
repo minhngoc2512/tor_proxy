@@ -1,5 +1,11 @@
 version: "2.3"
 services:
+  proxy_1_1:
+    image: "timms/tor-proxy-rapid-ip-rotation"
+    logging:
+      driver: none
+    ports:
+      - "9050:9050"
   proxy_1:
     image: "timms/tor-proxy-rapid-ip-rotation"
     logging:
